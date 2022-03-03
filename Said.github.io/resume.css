@@ -1,0 +1,199 @@
+/*
+  Said Sheck
+  Jan 9th 2021
+  CSE 154 Section AA Max Bi
+
+  The following page provides the style for my resume page.
+  Specifing the style for each section in the page and any style
+  not overlapping with the about page. Such as having indivual cards
+  for content and not a huge blob like the page prior (About page)
+*/
+
+#introduction {
+  height: 100vh;
+  justify-content: center;
+}
+
+#introduction h2 {
+  color : #ececec;
+  overflow: hidden;
+  border-right: .15em solid #ececec;
+  padding-top: 1em;
+  font-size: 4em;
+  text-align: center;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .5s step-end;
+}
+
+main h2 {
+  font-size: 2em;
+}
+
+#intrdduction h2, .project-card {
+  border-radius: 15px;
+}
+
+#introduction article {
+  display: flex;
+}
+
+#introduction > article p {
+  font-size: 22pt;
+  margin-left: 2em;
+}
+
+#introduction img {
+  height: 200px;
+  width: 300px;
+}
+
+.project-card {
+  font-size: 1rem;
+  width: 20em;
+  height: 30em;
+  padding-left: 2em;
+  padding-right: 3.5em;
+}
+
+.project-card h3, footer {
+  text-align: center;
+}
+
+.project-card h3, #skills li {
+  font-size: 1.5em;
+}
+
+.project-card p {
+  width: 35ch;
+  margin-right: 10%;
+}
+
+.project-card img {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+#academics-skills-container {
+  justify-content: space-evenly;
+}
+
+#skills li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#skills, #academics {
+  height: 35em;
+}
+
+#skills {
+ width: 35em;
+}
+
+#academics {
+  width: 22em;
+}
+
+#academics ul {
+  margin-top: 0px;
+}
+
+#academics > section > p {
+  margin-right: 0%;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  margin-right: auto;
+}
+
+footer p {
+  margin-left: auto;
+  font-size: 1em;
+}
+
+.container, .html, .css, .js, .sql {
+  border-radius: 15px;
+  background-color: #7251B5;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+}
+
+.css {
+  width: 80%;
+}
+
+.js {
+  width: 65%;
+}
+
+.sql {
+  width: 75%;
+}
+
+#academics-skills, .project-card {
+  margin-bottom: 3em;
+}
+
+.project-card {
+  margin-right: 1em;
+}
+
+#academics-skills-container, #project-container {
+  flex-wrap: wrap;
+}
+
+.fa-file {
+  background-color: #ecec;
+  color: black;
+}
+
+#project-container > a {
+  text-decoration: none;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255) }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255) }
+}
