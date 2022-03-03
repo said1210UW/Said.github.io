@@ -39,7 +39,7 @@ main h2 {
 }
 
 #introduction > article p {
-  font-size: 1.2em;
+  font-size: 22pt;
   margin-left: 2em;
 }
 
@@ -171,10 +171,25 @@ footer p {
   flex-wrap: wrap;
 }
 
+.fa-file {
+  background-color: #ecec;
+  color: black;
+}
+
+#project-container > a {
+  text-decoration: none;
+}
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255) }
 }
 
 /* The typewriter cursor effect */
